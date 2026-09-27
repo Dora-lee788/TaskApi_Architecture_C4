@@ -14,15 +14,15 @@ TaskApi — учебный сервис управления задачами, �
 
 ### Context
 
-![C4 Level 1 — Context](<docs/TaskApi_Architecture_C4-C4 Level 1 — Context.drawio.png>)
+![C4 Level 1 — Context](<TaskApi/docs/TaskApi_Architecture_C4-C4 Level 1 — Context.drawio.png>)
 
 ### Container
 
-![C4 Level 2 — Container](<docs/TaskApi_Architecture_C4-C4 Level 2 — Container .drawio.png>)
+![C4 Level 2 — Container](<TaskApi/docs/TaskApi_Architecture_C4-C4 Level 2 — Container .drawio.png>)
 
 ### Component
 
-![C4 Level 3 — Component](<docs/TaskApi_Architecture_C4-C4 Level 3 — Component.drawio.png>)
+![C4 Level 3 — Component](<TaskApi/docs/TaskApi_Architecture_C4-C4 Level 3 — Component.drawio.png>)
 
 ## Защита проекта
 
