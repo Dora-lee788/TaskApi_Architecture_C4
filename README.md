@@ -18,7 +18,7 @@ TaskApi — учебный сервис управления задачами, �
 
 ### Container
 
-![C4 Level 2 — Container](<docs/TaskApi_Architecture_C4-C4 Level 2 — Container.drawio.png>)
+![C4 Level 2 — Container](<docs/TaskApi_Architecture_C4-C4 Level 2 — Container .drawio.png>)
 
 ### Component
 
