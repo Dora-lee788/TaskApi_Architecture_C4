@@ -39,10 +39,4 @@ TaskApi — учебный сервис управления задачами, �
 
 ## Исходные файлы
 
-Редактируемая схема:
-
-[TaskApi_Architecture_C4.drawio](docs/TaskApi_Architecture_C4.drawio)
-
-Экспорт схемы в PDF:
-
-[TaskApi_Architecture_C4.pdf](docs/TaskApi_Architecture_C4.drawio.pdf)
+Редактируемая схема и PDF файл также лежат в проекте
