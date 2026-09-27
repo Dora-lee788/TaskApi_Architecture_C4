@@ -14,32 +14,35 @@ TaskApi — учебный сервис управления задачами, �
 
 ### Context
 
-[![C4 Level 1 — Context](TaskApi_Architecture_C4-C4%20Level%201%20%E2%80%94%20Context.png)](TaskApi_Architecture_C4-C4%20Level%201%20%E2%80%94%20Context.png)
+![C4 Level 1 — Context](<docs/TaskApi_Architecture_C4-C4 Level 1 — Context.drawio.png>)
 
 ### Container
 
-[![C4 Level 2 — Container](TaskApi_Architecture_C4-C4%20Level%202%20%E2%80%94%20Container.png)](TaskApi_Architecture_C4-C4%20Level%202%20%E2%80%94%20Container.png)
+![C4 Level 2 — Container](<docs/TaskApi_Architecture_C4-C4 Level 2 — Container.drawio.png>)
 
 ### Component
 
-[![C4 Level 3 — Component](TaskApi_Architecture_C4-C4%20Level%203%20%E2%80%94%20Component.png)](TaskApi_Architecture_C4-C4%20Level%203%20%E2%80%94%20Component.png)
+![C4 Level 3 — Component](<docs/TaskApi_Architecture_C4-C4 Level 3 — Component.drawio.png>)
 
-## Обоснование архитектуры
+## Защита проекта
 
-**API** выбран для взаимодействия пользователя с системой и выполнения операций с задачами.
-
-**PostgreSQL** выбран для хранения данных системы.
-
-**Redis Cache** выбран как дополнительный компонент для кэширования данных и уменьшения количества обращений к базе данных.
-
-**API Gateway** используется как единая точка входа для запросов пользователя и передаёт запросы к API.
-
-## Взаимодействие компонентов
-
-Основные компоненты взаимодействуют через HTTP-запросы и обращения к хранилищам данных. Пользовательский запрос проходит через API Gateway к API, после чего система работает с PostgreSQL и Redis Cache.
+- **Какую задачу решает выбранный сервис:** управление задачами через API.
+- **Проектная тема:** «сервис задач».
+- **Context:** показывает пользователя и систему.
+- **Container:** показывает основные контейнеры и взаимодействие между ними.
+- **Component:** показывает внутренние компоненты выбранного API.
+- **API:** используется для обработки запросов пользователя.
+- **PostgreSQL:** используется для хранения данных.
+- **Дополнительный компонент:** Redis Cache используется для кэширования данных.
+- **API Gateway:** используется как единая точка входа для запросов пользователя.
+- **Взаимодействие:** пользователь отправляет HTTP-запрос через API Gateway, после чего запрос передаётся в TaskApi, который взаимодействует с PostgreSQL и Redis Cache.
 
 ## Исходные файлы
 
-[Редактируемая C4-схема (.drawio)](TaskApi_Architecture_C4.drawio)
+Редактируемая схема:
 
-[Архитектура в PDF](TaskApi_Architecture_C4.drawio.pdf)
+[TaskApi_Architecture_C4.drawio](docs/TaskApi_Architecture_C4.drawio)
+
+Экспорт схемы в PDF:
+
+[TaskApi_Architecture_C4.pdf](docs/TaskApi_Architecture_C4.drawio.pdf)
